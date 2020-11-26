@@ -61,9 +61,48 @@ body {
 
 .card {
   width: 250px;
-  background: #fff;
   margin: 10px;
 }
+
+.card .card__inner {
+  background: #fff;
+}
+
+.card .card__inner .card-img {
+  overflow: hidden;
+}
+
+.card.hide .card__inner {
+  display: none;
+}
+
+.card img {
+  width: 100%;
+  max-height: 175px;
+  vertical-align: bottom;
+  transition:1s all;
+}
+
+.card img:hover {
+  transform:scale(1.2,1.2);
+  transition:1s all;
+}
+
 .card__title {
-  padding: 0 5px 0 5px;
+  padding: 5px;
+  word-break: break-word;
+  line-height: 1.1rem;
+}
+
+.card__title a {
+  text-decoration: none;
+  color: #444;
+  outline-style: none;
+  transition: all 200ms 0s ease;
+}
+
+.card__title a:hover {
+  text-decoration: none;
+  color: #f90;
+  outline-style: none;
 }
