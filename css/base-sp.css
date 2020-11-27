@@ -1,7 +1,7 @@
 :root {
   --hamburger-menu-size: 100px;
-  --hamburger-menu-padding: 12px;
-  --hamburger-menu-border-px: 4px;
+  --hamburger-menu-padding: 13px;
+  --hamburger-menu-border-px: 1px;
   --hamburger-menu-border-color: #fff;
   --hamburger-menu-transition: 0.3s;
   --header-width: 55px;
