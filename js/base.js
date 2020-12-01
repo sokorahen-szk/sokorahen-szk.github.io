@@ -1,14 +1,5 @@
 $( () => {
 
-  // Scrollイベント
-  $(window).on('load scroll', function() {
-    if ( $(this).scrollTop() > $('header').height() ) {
-      $('header').clone().addClass('clone-nav').appendTo('body').addClass('is-show');
-    } else {
-      $('header').clone().addClass('clone-nav').appendTo('body').removeClass('is-show');
-    }
-  });
-
   // Resizeイベント
   $(window).resize(function() {
     controlCardDummy();

@@ -117,16 +117,30 @@ body {
   outline-style: none;
 }
 
-.clone-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  width: 100%;
-  transition: .3s;
-  transform: translateY(-100%);
+.card-tag {
 }
 
-.is-show {
-  transform: translateY(0);
+.card-tag__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.card-tag__wrap li {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.card-tag__wrap a {
+  color: #4169e1;
+  text-decoration: none;
+}
+
+.card-tag__wrap a:hover {
+  color: #87cefa;
+  text-decoration: underline;
+}
+
+.card-tag__wrap a:before {
+  content: '#'
 }
