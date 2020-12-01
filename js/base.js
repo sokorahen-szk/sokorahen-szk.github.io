@@ -1,19 +1,30 @@
 $( () => {
 
+  // Scrollイベント
+  $(window).on('load scroll', function() {
+    if ( $(this).scrollTop() > $('header').height() ) {
+      $('header').clone().addClass('clone-nav').appendTo('body').addClass('is-show');
+    } else {
+      $('header').clone().addClass('clone-nav').appendTo('body').removeClass('is-show');
+    }
+  });
+
+  // Resizeイベント
+  $(window).resize(function() {
+    controlCardDummy();
+  });
+
   // ハンバーガー
   $('.hamburger-menu').on('click', function() {
     $(this).toggleClass('hamburger-menu-active')
   });
 
-  $(window).resize(function() {
-    addCardDummy();
-  });
-
-
-  addCardDummy();
+  // 最後に実行
+  controlCardDummy();
 });
 
-function addCardDummy() {
+// ダミー .card を作成
+function controlCardDummy() {
   const length = $('.card').length;
   const count = ($(window).width() >= 1400) ? length % 4 : length % 3;
   const add = Math.abs( (($(window).width() >= 1400) ? 4 : 3) - count);
