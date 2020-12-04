@@ -167,3 +167,38 @@ body {
   color: #f90;
   outline-style: none;
 }
+
+.card__footer {
+  display: none;
+}
+
+.card__status {
+  padding: 10px;
+  text-align: center;
+}
+
+.card__status a:hover {
+  opacity: 0.5;
+}
+
+.fa-wrap {
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.fa-wrap.green {
+  color: green;
+}
+
+.fa-wrap.red {
+  color: red;
+}
+
+.fa-wrap i {
+  padding-left: 5px;
+}
+
+.fa-wrap .normal {
+  color: #666;
+  padding: 3px 3px;
+}

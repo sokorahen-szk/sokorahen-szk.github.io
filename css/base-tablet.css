@@ -117,17 +117,37 @@ body {
   outline-style: none;
 }
 
-.card-tag__wrap a {
-  color: #4169e1;
+.card__footer {
+  display: none;
+}
+
+.card__status {
+  padding: 10px;
+  text-align: center;
+}
+
+.card__status a:hover {
+  opacity: 0.5;
+}
+
+.fa-wrap {
+  font-size: 20px;
   text-decoration: none;
 }
 
-.card-tag__wrap a:hover {
-  color: #87cefa;
-  text-decoration: underline;
+.fa-wrap.green {
+  color: green;
 }
 
-.card-tag__wrap a:before {
-  content: '#'
+.fa-wrap.red {
+  color: red;
 }
 
+.fa-wrap i {
+  padding-left: 5px;
+}
+
+.fa-wrap .normal {
+  color: #666;
+  padding: 3px 3px;
+}
