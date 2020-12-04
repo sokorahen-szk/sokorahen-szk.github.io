@@ -7,10 +7,6 @@
   --header-width: 55px;
 }
 
-body {
-  background: #000;
-}
-
 .header {
   background: #333;
   display: flex;
@@ -109,6 +105,11 @@ body {
   color: #bbb;
 }
 
+/* nav */
+.nav {
+  display: none;
+}
+
 .container {
   width: 95%;
   margin: 0 auto;
@@ -182,7 +183,7 @@ body {
 }
 
 .fa-wrap {
-  font-size: 24px;
+  font-size: 30px;
   text-decoration: none;
 }
 

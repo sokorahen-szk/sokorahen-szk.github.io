@@ -2,10 +2,7 @@
   --header-width: 55px;
 }
 
-body {
-  background: #000;
-}
-
+/* header */
 .header {
   background: #333;
   display: flex;
@@ -52,6 +49,28 @@ body {
 
 .header__content-mobile {
   display: none;
+}
+
+/* nav */
+.nav {
+  background: #999;
+  display: none;
+}
+
+.nav .nav__wrap {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+}
+
+.nav .nav__wrap li {
+  width: 150px;
+  text-align: center;
+  border-right: 1px #ccc solid;
+}
+
+.nav .nav__wrap li:last-child {
+  border-width: 0;
 }
 
 .container {
