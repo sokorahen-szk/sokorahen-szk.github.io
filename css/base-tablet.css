@@ -59,19 +59,32 @@
 .nav .nav__wrap {
   display: flex;
   justify-content: center;
-  padding: 10px 0 10px 0;
+  padding: 5px;
 }
 
 .nav .nav__wrap li {
   width: 150px;
   text-align: center;
-  border-right: 1px #ccc solid;
+  height: 30px;
+  line-height: 30px;
 }
 
 .nav .nav__wrap li:last-child {
   border-width: 0;
 }
 
+.nav .nav__wrap a {
+  color: #222;
+  text-decoration: none;
+  display: block;
+}
+
+.nav .nav__wrap a:hover {
+  color: #666;
+  border-bottom: 2px #ff4000 solid;
+}
+
+/* container */
 .container {
   width: 95%;
   margin: 0 auto;
