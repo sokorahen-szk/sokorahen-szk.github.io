@@ -57,6 +57,11 @@
   display: none;
 }
 
+/* mav-mobile */
+.nav-mobile {
+  display: none;
+}
+
 .nav .nav__wrap {
   display: flex;
   justify-content: center;

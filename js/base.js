@@ -7,7 +7,8 @@ $( () => {
 
   // ハンバーガー
   $('.hamburger-menu').on('click', function() {
-    $(this).toggleClass('hamburger-menu-active')
+    $(this).toggleClass('hamburger-menu-active');
+    $('.nav-mobile').toggleClass('active');
   });
 
   // 最後に実行
