@@ -146,14 +146,13 @@
   text-indent: 5px;
   height: 35px;
   flex: 11;
-  font-size: 16px;
 }
 
 .nav-mobile__wrap .search-box .search-btn {
   flex: 1;
   text-align: center;
-  height: 35px;
-  line-height: 35px;
+  height: 37px;
+  line-height: 37px;
   font-size: 20px;
   color: #fff;
   cursor: pointer;
