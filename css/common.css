@@ -1,3 +1,7 @@
 body {
   background: #000;
 }
+
+.counter {
+  padding: 0 5px 0 5px;
+}
