@@ -32,18 +32,27 @@
 
 .header__content input {
   border: 1px #555 solid;
-  background: #333;
-  padding: 8px;
+  background: #555;
   text-indent: 5px;
   color: #bbb;
-  width: 225px;
+  width: 275px;
+  height: 30px;
+  border-radius: 15px;
 }
 
-.header__content input:hover {
-  background: #666;
-  border: 0;
-  transition: all 800ms 0s ease;
-  color: #bbb;
+.header__content .search-btn {
+  color: #f90;
+  position: absolute;
+  right: 30px;
+  width: 19px;
+  height: 19px;
+  font-size: 19px;
+  top: 2px;
+  cursor: pointer;
+}
+
+.header__content .search-btn:hover {
+  opacity: 0.5;
 }
 
 .header__content-mobile {
