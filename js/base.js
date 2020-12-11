@@ -18,8 +18,8 @@ $( () => {
 // ダミー .card を作成
 function controlCardDummy() {
   const length = $('.card').length;
-  const count = ($(window).width() >= 1400) ? length % 4 : length % 3;
-  const add = Math.abs( (($(window).width() >= 1400) ? 4 : 3) - count);
+  const count = length % 5;
+  const add = Math.abs(5 - count);
 
   if (add !== 0) {
     if ($('.card.hide').length < add) {

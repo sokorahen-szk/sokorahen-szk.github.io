@@ -101,6 +101,8 @@
 
 /* container */
 .container {
+  max-width: 1400px;
+  height: 100%;
   width: 100%;
   margin: 0 auto;
 }
@@ -221,6 +223,34 @@
   color: #666;
   padding: 3px 3px;
 }
+
+.footer {
+  margin-top: 25px;
+  padding: 5px 5px;
+  background: #222;
+  color: #fff;
+}
+
+.footer__wrap {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 95%;
+  height: 120px;
+  display: flex;
+}
+
+.footer-content__left {
+  flex: 4;
+}
+
+.footer-content__center {
+  flex: 4;
+}
+
+.footer-content__right {
+  flex: 4;
+}
+
 
 .pc-flex {
   display: flex;
