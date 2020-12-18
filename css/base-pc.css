@@ -128,6 +128,13 @@
 
 .card .card__inner .card-img {
   overflow: hidden;
+  position: relative;
+}
+
+.card .card__inner .card-img .cart-img__genre {
+  position: absolute;
+  top: 0;
+  background: red;
 }
 
 .card.hide .card__inner {
