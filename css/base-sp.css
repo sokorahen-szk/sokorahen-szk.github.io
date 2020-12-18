@@ -227,6 +227,47 @@
   overflow: hidden;
 }
 
+.card .card__inner .card-img {
+  overflow: hidden;
+  position: relative;
+}
+
+.card .card__inner .card-img .cart-img__genre {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+/* pornhub */
+.card .card__inner .card-img .cart-img__genre .pornhub {
+  background-image: url("../images/pornhub.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: contain;
+  width: 65px;
+  height: 25px;
+}
+
+/* xhamster */
+.card .card__inner .card-img .cart-img__genre .xhamster {
+  background-image: url("../images/xhamster.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: contain;
+  width: 65px;
+  height: 25px;
+}
+
+/* xvideos */
+.card .card__inner .card-img .cart-img__genre .xvideos {
+  background-image: url("../images/xvideos.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: contain;
+  width: 65px;
+  height: 25px;
+}
+
 .card.hide .card__inner {
   display: none;
 }
