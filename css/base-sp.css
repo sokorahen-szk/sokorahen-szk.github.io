@@ -6,6 +6,7 @@
   --hamburger-menu-transition: 0.3s;
   --header-width: 55px;
   --header-color: #333;
+  --nav-width: 150px;
 }
 
 .header {
@@ -115,7 +116,7 @@
 /* mobile nav */
 .nav-mobile {
   background: var(--header-color);
-  height: 125px;
+  height: var(--nav-width);
   width: 100%;
   position: absolute;
   top: -100px;
@@ -127,7 +128,7 @@
 .nav-mobile.active {
   transition: .8s ease;
   transform: translateY(100%);
-  top: calc(55px - 125px);
+  top: calc(55px - var(--nav-width));
 }
 
 .nav-mobile__wrap {
@@ -270,6 +271,50 @@
 
 .card__status a:hover {
   opacity: 0.5;
+}
+
+/* bottom-nav */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  border-top: 1px #eee solid;
+  background: #eee;
+  width: 100%;
+}
+.bottom-nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom-nav li {
+  flex: 4;
+  font-size: 25px;
+  text-align: center;
+  border-right: 1px #ccc solid;
+}
+
+.bottom-nav li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 12px 0 12px 0;
+}
+
+.bottom-nav li a:hover {
+  color: #aaa;
+}
+
+.bottom-nav li.favorite {
+}
+
+.bottom-nav li span {
+  font-size: 15px;
+  display: block;
+  padding: 5px 0 5px 0;
+}
+
+.bottom-nav-home {
+  color: red;
 }
 
 .fa-wrap {
