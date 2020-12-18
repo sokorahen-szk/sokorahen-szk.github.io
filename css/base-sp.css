@@ -288,7 +288,7 @@
 
 .bottom-nav li {
   flex: 4;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   border-right: 1px #ccc solid;
 }
@@ -308,7 +308,7 @@
 }
 
 .bottom-nav li span {
-  font-size: 15px;
+  font-size: 14px;
   display: block;
   padding: 5px 0 5px 0;
 }
