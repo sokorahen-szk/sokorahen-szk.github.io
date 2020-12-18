@@ -176,6 +176,11 @@
   opacity: 0.5;
 }
 
+/* bottom-nav */
+.bottom-nav {
+  display: none;
+}
+
 .fa-wrap {
   font-size: 20px;
   text-decoration: none;

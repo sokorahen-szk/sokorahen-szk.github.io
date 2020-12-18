@@ -203,6 +203,11 @@
   opacity: 0.5;
 }
 
+/* bottom-nav */
+.bottom-nav {
+  display: none;
+}
+
 .fa-wrap {
   text-decoration: none;
 }
