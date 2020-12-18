@@ -274,8 +274,8 @@
 
 .card img {
   width: 100%;
-  min-height: 150px;
-  max-height: 150px;
+  min-height: 125px;
+  max-height: 125px;
   vertical-align: bottom;
   transition:1s all;
 }
@@ -284,6 +284,7 @@
 }
 
 .card__title {
+  font-size: 12px;
   padding: 5px;
   word-break: break-word;
   line-height: 1.1rem;
@@ -303,6 +304,17 @@
 }
 
 .card__footer {
+  display: block;
+}
+
+.card__footer .time {
+  color: #777;
+  text-align: right;
+  font-size: 12px;
+  padding: 0 5px 0 5px;
+}
+
+.card__footer .category {
   display: none;
 }
 
@@ -378,4 +390,9 @@
 .fa-wrap .normal {
   color: #666;
   padding: 3px 3px;
+}
+
+/* footer */
+.footer {
+  display: none;
 }

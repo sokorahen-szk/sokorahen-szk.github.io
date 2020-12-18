@@ -206,8 +206,8 @@
 
 .card__footer {
   padding: 4px 4px 4px 8px;
-  display: none;
   font-size: 14px;
+  display: flex;
 }
 
 .card__footer .time {
@@ -266,9 +266,9 @@
   padding: 3px 3px;
 }
 
+/* footer */
 .footer {
-  margin-top: 25px;
-  padding: 5px 5px;
+  margin-top: 80px;
   background: #222;
   color: #fff;
 }
@@ -281,18 +281,40 @@
   display: flex;
 }
 
-.footer-content__left {
-  flex: 4;
+.footer-content {
+  font-size: 13px;
+  margin: 30px 0 30px 0;
+  width: 100%;
 }
 
-.footer-content__center {
-  flex: 4;
+.footer-content ul {
+  list-style-type: none;
+  display: flex;
 }
 
-.footer-content__right {
-  flex: 4;
+.footer-content li:after {
+  color: #666;
+  content: '｜';
+  margin: 10px 10px;
 }
 
+.footer-content li:last-child:after {
+  display: none;
+}
+
+.footer-content__title {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
 
 .pc-flex {
   display: flex;
