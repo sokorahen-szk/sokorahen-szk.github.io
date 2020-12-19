@@ -342,7 +342,7 @@
 
 .bottom-nav li {
   flex: 4;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -361,9 +361,9 @@
 }
 
 .bottom-nav li span {
-  font-size: 14px;
+  font-size: 13px;
   display: block;
-  padding: 5px 0 5px 0;
+  padding: 8px 0 8px 0;
 }
 
 .bottom-nav-home {
