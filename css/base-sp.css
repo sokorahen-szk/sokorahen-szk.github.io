@@ -225,10 +225,6 @@
 
 .card .card__inner .card-img {
   overflow: hidden;
-}
-
-.card .card__inner .card-img {
-  overflow: hidden;
   position: relative;
 }
 
@@ -368,6 +364,68 @@
 
 .bottom-nav-home {
   color: red;
+}
+
+/* paginations */
+.paginations {
+  width: 100%;
+  margin: 30px 0 100px 0;
+}
+
+.paginations-list {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+
+.paginations-list li {
+  margin: 0;
+}
+
+.paginations-list a {
+  color: #fff;
+  display: block;
+  background: #303030;
+  border-radius: 4px;
+  padding: 10px 15px 10px 15px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.paginations-list a:hover {
+  background: #505050;
+}
+
+.paginations-list .left-icon {
+  margin-right: 6px;
+}
+
+.paginations-list .right-icon {
+  margin-left: 6px;
+}
+
+.paginations-list .active {
+  color: #000000;
+  background: #f90;
+}
+
+.paginations-list .active:hover {
+  color: #000000;
+  background: #f90;
+}
+
+.paginations-list .prev-button {
+  background: transparent;
+  border: 2px #f90 solid;
+  color: #f90;
+  padding: 8px 14px 8px 14px;
+}
+
+.paginations-list .next-button {
+  background: transparent;
+  border: 2px #f90 solid;
+  color: #f90;
+  padding: 8px 14px 8px 14px;
 }
 
 .fa-wrap {
